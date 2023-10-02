@@ -1,3 +1,4 @@
+Q1. 
 
 Merging:
 
@@ -16,6 +17,9 @@ Rebasing is typically used in scenarios where a cleaner, more linear commit hist
 Similar to merging, rebasing can also lead to conflicts when changes in the source branch conflict with changes in the target branch. However, conflicts are resolved incrementally, commit by commit, as each commit from the source branch is reapplied onto the target branch. This granular conflict resolution can make the process more manageable and less error-prone compared to resolving conflicts in a single merge commit.
 
 The linear commit history produced by rebasing offers a distinct advantage in terms of commit history clarity. It simplifies the history by eliminating the "noise" of merge commits, making it easier to follow the evolution of the codebase. This can be particularly advantageous in projects with extensive collaboration and frequent branch updates.
+
+
+Q2. 
 
 A remote repository, in the context of software development and version control systems like Git, is a repository hosted on a remote server or platform that is used to store and manage the source code and related files of a project. Remote repositories are an essential part of distributed version control systems, enabling collaboration among multiple developers working on the same project, even if they are geographically dispersed.
 
